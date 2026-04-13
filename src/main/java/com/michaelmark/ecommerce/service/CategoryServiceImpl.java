@@ -17,7 +17,7 @@ import java.util.List;
 
 
 @Service
-public class CategoryServiceImplementation implements CategoryService {
+public class CategoryServiceImpl implements CategoryService {
     @Autowired
     private CategoryRepository categoryRepository;
     @Autowired
